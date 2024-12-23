@@ -4,14 +4,8 @@ export default function Home() {
   return (
     <div >
       <h1>Home</h1>
-      <Image
-        src="/vercel.svg"
-        alt="Vercel Logo"
-        className="dark:invert"
-        width={100}
-        height={24}
-        priority
-      />
+      <h2 className="text-7xl"> World </h2>
+     
     </div>
   );
 }
