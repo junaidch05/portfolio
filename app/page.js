@@ -2,10 +2,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div >
-      <h1>Home</h1>
-      <h2 className="text-7xl"> World </h2>
-     
-    </div>
+    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+    </main>
   );
 }
